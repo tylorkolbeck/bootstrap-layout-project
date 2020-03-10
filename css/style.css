@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     font-size: 16px;
+    min-height: 100vh;
     /* background: rgb(240, 240, 240); */
 }
 
@@ -11,6 +12,7 @@ body, html {
 }
 
 #content-wrapper {
+    display: block;
     padding-bottom: 10rem;
     max-width: 1024px;
     margin: 0 auto;
