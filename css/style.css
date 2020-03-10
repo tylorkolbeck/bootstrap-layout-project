@@ -2,38 +2,24 @@
 body, html {
     height: 100%;
     font-size: 16px;
-    min-height: 100vh;
-    /* background: rgb(240, 240, 240); */
 }
 
-#page-wrapper {
-    position: relative;
-    min-height: 100vh;
+#wrapper {
+    min-height: 100%;
 }
 
-#content-wrapper {
-    display: block;
-    padding-bottom: 10rem;
-    max-width: 1024px;
-    margin: 0 auto;
+main {
+    /* overflow: auto; */
+    padding-bottom: 150px;
 }
 
-footer {
+/* footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-}
-
-.form-group input, textarea {
-    max-width: 600px;
-}
+} */
 
 .nav-item .nav-link.active {
     color: #007bff !important;
 }
 
-@media only screen and (max-width: 1000px) {
-    #content-wrapper {
-        padding-bottom: 20rem;
-    }
-}

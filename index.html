@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <main id="page-wrapper">
+<body class="d-flex h-100 flex-column">
+    <main >
         <!-- NAVBAR -->
         <nav class="navbar navbar-light navbar-expand-sm bg-white shadow-sm sticky-top">
             <a class="navbar-brand text-dark" href="./index.html">TK</a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" ></span>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
@@ -34,7 +35,43 @@
             </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid bg-light" style="padding: 100px 0px 100px 0px">
+
+        <div class="container ma-a">
+            <!-- ABOUT ME -->
+            <div class="row">
+                <div class="col mb-4">
+                    <h1 class="display-3">About Me</h1>
+                    <hr>
+
+                    <div class="text-center">
+                        <img class="float-md-left ml-sm-auto mr-md-3 mb-3" src="./assets/images/profile_img.jpg"
+                            width="200px">
+                    </div>
+
+                    <p>Hello, my name is Tylor Kolbeck. I am a 12 year Navy verteran. While in the Navy I was a
+                        helicopter crewman. I serverd in multiple roles including instructing and
+                        curriculumn development, and flight operations supervisor. </p>
+
+                    <p>I switched career paths to pursue my passion in web development. Out of high school I started
+                        by
+                        developing small websites working mostly with HTML, CSS, and PHP. I have spent the past 5
+                        years self learning, honing my skills to be able to call myself a full stack web
+                        developer.</p>
+
+                    <p> I currently work at Jack Henry & Associates
+                        as a UI/UX Developer. At JHA I develop and maintain the companies next generation teller
+                        software prototype which is used for user testing around the country. On this project I work
+                        with the React library and company style frameworks. </p>
+
+                    <p>I hope to one day take my passion and experience in teaching to
+                        teach others web development.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="jumbotron jumbotron-fluid bg-light">
             <div class="container">
                 <blockquote class="blockquote mb-0 text-center ">
                     <p>Great things are not done by impulse, but by a series of small things brought together.
@@ -43,85 +80,46 @@
                 </blockquote>
             </div>
         </div>
+    </main>
 
-        <div id="content-wrapper">
-            <div class="container">
-                <!-- ABOUT ME -->
-                <div class="row">
-                    <div class="col mb-4">
-                        <h1 class="display-3">About Me</h1>
-                        <hr>
-
-                        <div class="text-center">
-                            <img class="float-md-left ml-sm-auto mr-md-4" src="./assets/images/profile_img.jpg"
-                                width="200px">
-                        </div>
-
-                        <p>Hello, my name is Tylor Kolbeck. I am a 12 year Navy verteran. While in the Navy I was a
-                            helicopter crewman. I serverd in multiple roles including instructing and
-                            curriculumn development, and flight operations supervisor. </p>
-
-                        <p>I switched career paths to pursue my passion in web development. Out of high school I started
-                            by
-                            developing small websites working mostly with HTML, CSS, and PHP. I have spent the past 5
-                            years self learning, honing my skills to be able to call myself a full stack web
-                            developer.</p>
-
-                        <p> I currently work at Jack Henry & Associates
-                            as a UI/UX Developer. At JHA I develop and maintain the companies next generation teller
-                            software prototype which is used for user testing around the country. On this project I work
-                            with the React library and company style frameworks. </p>
-
-                        <p>I hope to one day take my passion and experience in teaching to
-                            teach others web development.</p>
-
-                    </div>
+    <!-- FOOTER -->
+    <footer class="footer font-small pt-4 bg-dark text-light">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- FOOTER LINKS -->
+                    <h5 class="text-uppercase">Navigation</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a href="./index.html" class="text-primary">Home</a>
+                        </li>
+                        <li>
+                            <a href="./portfolio.html" class="text-primary">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="text-primary">Contact</a>
+                        </li>
+                    </ul>
                 </div>
 
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- FOOTER LINKS -->
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://github.com/tylorkolbeck" class="text-primary">Github</a>
+                        </li>
+                        <li>
+                            <a href="http://tylorkolbeck.com" class="text-primary">TylorKolbeck.com</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/tylorkolbeck/" class="text-primary">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <!-- FOOTER -->
-        <footer class="page-footer font-small pt-4 bg-dark text-light">
-            <div class="container-fluid text-center text-md-left">
-                <div class="row">
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <!-- FOOTER LINKS -->
-                        <h5 class="text-uppercase">Navigation</h5>
-                        <ul class="list-unstyled ">
-                            <li>
-                                <a href="./index.html" class="text-primary">Home</a>
-                            </li>
-                            <li>
-                                <a href="./portfolio.html" class="text-primary">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="./contact.html" class="text-primary">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <!-- FOOTER LINKS -->
-                        <h5 class="text-uppercase">Links</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="https://github.com/tylorkolbeck" class="text-primary">Github</a>
-                            </li>
-                            <li>
-                                <a href="http://tylorkolbeck.com" class="text-primary">TylorKolbeck.com</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/tylorkolbeck/" class="text-primary">LinkedIn</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-    </main>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Contact</title>
 </head>
 
-<body>
-    <div id="page-wrapper">
+<body class="d-flex h-100 flex-column">
+    <main>
         <!-- NAVBAR -->
         <nav class="navbar navbar-light navbar-expand-sm bg-white shadow-sm sticky-top">
             <a class="navbar-brand text-dark" href="./index.html">TK</a>
@@ -34,9 +33,9 @@
                 </ul>
             </div>
         </nav>
-        <div id="content-wrapper">
+
             <!-- FORM CONTAINER -->
-            <div class="container ">
+            <div class="container ma-a">
                 <div class="row">
                     <div class="col">
                         <h1 class="display-3">Get In Touch</h1>
@@ -46,12 +45,12 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                    aria-describedby="emailHelp" placeholder="Enter email" style="max-width: 600px">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone else.</small>
                             </div>
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="max-width: 600px"></textarea>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Subscribe To News Letter</label>
@@ -61,12 +60,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+    </main>
 
      <!-- FOOTER -->
-     <footer class="page-footer font-small pt-4 bg-dark text-light">
+     <footer class="footer mt-auto py-2 font-small pt-4 bg-dark text-light">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-md-3 mb-md-0 mb-3">
@@ -85,7 +83,7 @@
                     </ul>
                 </div>
 
-                <!-- <div class="col-md-3 mb-md-0 mb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
                     <h5 class="text-uppercase">Links</h5>
                     <ul class="list-unstyled">
                         <li>
@@ -98,9 +96,8 @@
                             <a href="https://www.linkedin.com/in/tylorkolbeck/" class="text-primary">LinkedIn</a>
                         </li>
                     </ul>
-                </div> -->
+                </div>
             </div>
-        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
